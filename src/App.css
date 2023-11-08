@@ -1,0 +1,166 @@
+@import url('https://fonts.cdnfonts.com/css/raleway-5');
+
+* {
+	font-family: Raleway, sans-seriff;  
+}
+html {
+  background-color: #aaaaaa !important;
+}
+.App {
+  text-align: center;
+  background-color: #aaaaaa;
+  color: white;
+}
+Nav {
+  position: fixed !important;
+  z-index: 1;
+  width: 100%;
+}
+.Nav-Icon {
+  height: 40px;
+  margin: 5px 15px;
+}
+.Nav-Compensation {
+  height: 75px;
+}
+.header-image-wrapper {
+  
+  width: 99vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.block-section {
+  background-color: #ffffff !important;
+  color: #333333 !important;
+  padding: 20px 0px;
+  margin: 10px;
+}
+.block-section-content {
+  font-size: 16px;
+  margin-top: 15px;
+  line-height: 1.5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 5px;
+}
+.flex-card {
+  max-width: 350px !important;
+  margin: 10px 5px;
+}
+.flex-card-status-text {
+  position: relative;
+  color: #555;
+  text-align: right;
+  bottom: -15px;
+  right: 3px;
+}
+.card-footer, .card-header {
+  background-color: #333 !important;
+}
+
+
+.quoteForm-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center form fields */
+}
+.quoteFormGroup {
+  margin: 10px auto;
+  width: 80%;
+}
+
+
+.cviLogo, .esgLogo {
+  height: 25px;
+  margin: auto 20px;
+}
+.social-icons-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.social-icon {
+  color: #bbb;
+  margin: 0 10px;
+  font-size: 32px;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.contactForm {
+  width: 100% !important;
+  max-width: 400px !important;
+}
+.contact-spinner {
+  margin: 2px 25px 0 25px;
+  width: 18px !important;
+  height: 18px !important;
+}
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  background-color: #212121;
+  padding: 15px 0;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+.footer-container img {
+  margin: 10px 0;
+}
+.list-unstyled {
+  text-align: left;
+  margin-left: 50px;
+}
+.list-unstyled li {
+  margin: 5px 0;
+}
+.list-unstyled a {
+  color: #aaa;
+  transition: color 0.3s;
+}
+.list-unstyled a:hover {
+  color: #fff;
+  transition: color 0.3s;
+}
+.contactDetails {
+  display: block;
+  margin-bottom: 12px;
+}
+.contactDetails > a {
+  margin: 12px;
+  color: #666;
+}
+.contactDetails > a:hover {
+  color: #fff;
+  transition: color 0.3s;
+}
+
+/* Modals */
+.disclaimer-modal .modal-content, .quote-modal .modal-content {
+  background-color: #333;
+  color: #fff;
+}
+.disclaimer-modal .modal-header,
+.disclaimer-modal .modal-footer,
+.quote-modal .modal-header,
+.quote-modal .modal-footer {
+  border-color: #444;
+}
+.disclaimer-modal .btn-secondary,
+.quote-modal .btn-secondary {
+  background-color: #444;
+  border-color: #333;
+  color: #fff;
+}

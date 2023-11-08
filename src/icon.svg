@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="309.1998" y1="501.3837" x2="579.8531" y2="230.7304">
+    <stop offset="0" style="stop-color: rgb(0, 114, 255);"/>
+    <stop offset="1" style="stop-color: rgb(0, 255, 255);"/>
+  </linearGradient>
+  <g transform="matrix(0.928084, 0, 0, 0.928084, -98.012721, -98.019702)" style="">
+    <path class="st0" d="M414,238.6l37.7-65.3h79.6l39.8,68.9l-27,46.8L580,351l62.8-108.8l-75.6-131H415.9L260.5,380.4l33.6,58.2h-75.4  l-39.8-68.9l39.8-69h54l35.8-62.1H182.8l-75.6,131l75.7,131h310.7l33.6-58.2l0,0l37.7,65.4l0,0l-39.8,68.9l-79.6,0l-27-46.8h-71.7  l62.8,108.9H561l75.6-131L481.2,238.6H414z M525.1,438.7L525.1,438.7l-226.6-0.1l113.3-196.2L525.1,438.7L525.1,438.7z" style="fill: url('#SVGID_1_');"/>
+  </g>
+</svg>
